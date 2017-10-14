@@ -82,6 +82,7 @@ Source26:      http://www.apache.org/dist/tomcat/tomcat-%{major_version}/v%{vers
 
 BuildArch:     noarch
 
+
 BuildRequires: ant
 #BuildRequires: ant-nodeps
 BuildRequires: ecj >= 1:4.2.1
@@ -644,12 +645,6 @@ fi
 
 %changelog
 * Sat Oct 14 2017 Romain Philibert <Filirom1@gmail.com> 7.0.82-2
-- feat: use embedded apache-commons-collections (Filirom1@gmail.com)
-
-* Sat Oct 14 2017 Romain Philibert <Filirom1@gmail.com>
-- feat: use embedded apache-commons-collections (Filirom1@gmail.com)
-
-* Sat Oct 14 2017 Romain Philibert <Filirom1@gmail.com>
 - feat: use embedded apache-commons-collections (Filirom1@gmail.com)
 
 * Mon Oct 09 2017 Romain Philibert <Filirom1@gmail.com> 7.0.82-1
