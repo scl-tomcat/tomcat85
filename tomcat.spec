@@ -644,5 +644,8 @@ fi
 %attr(0644,root,root) %{_unitdir}/%{?scl_prefix}%{pkg_name}-jsvc.service
 
 %changelog
+* Tue Oct 17 2017 Filirom1-bot <Filirom1@gmail.com> 8.5.23-2
+- new package built with tito
+
 * Mon Oct 16 2017 Romain Philibert <romain.philibert@gmail.com> 0:8.5.23-1
 - Tomcat8.5
